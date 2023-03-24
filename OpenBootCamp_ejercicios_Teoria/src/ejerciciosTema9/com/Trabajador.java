@@ -4,8 +4,8 @@ public class Trabajador extends Persona {
     // Atributos
     private double salario;
     // constructor
-    public Trabajador(int edad, String nombre, String telefono, double salario) {
-        super(edad, nombre, telefono);
+    public Trabajador(int edad, String nombre, String telefono, double salario, String ciudad) {
+        super(edad, nombre, telefono, ciudad);
         this.salario = salario;
     }
     // metodos

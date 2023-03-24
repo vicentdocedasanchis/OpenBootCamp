@@ -4,8 +4,8 @@ public class Cliente extends Persona {
     //atributos
     private double credito;
     //constructores
-    public Cliente(int edad, String nombre, String telefono, double credito) {
-        super(edad, nombre, telefono);
+    public Cliente(int edad, String nombre, String telefono, double credito, String ciudad) {
+        super(edad, nombre, telefono , ciudad);
         this.credito = credito;
     }
     //metodos
